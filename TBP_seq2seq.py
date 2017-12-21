@@ -2,10 +2,13 @@
 import numpy as np
 import tensorflow as tf
 from Datasets_sequences import time_as_space_seq
-
-from tensorflow.examples.tutorials.mnist import input_data
 import matplotlib.pyplot as plt
 import os
+
+"""
+This is a rough experimental implmentation of the truncated backpropagation through time for a LSTM
+
+"""
 
 
 def reshape_data(data,
